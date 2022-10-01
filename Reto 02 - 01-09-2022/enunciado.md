@@ -29,6 +29,7 @@ Ejemplos:
 1001 => 101 => 01 => 1 => es colapsable :white_check_mark:
 
 
+Fuente: https://codeforces.com/contest/1694/problem/B
 
 ==== :fire:BONUS PACK ====
 Para nota, quien quiera, puede ampliar con el siguiente ejercicio:
@@ -41,25 +42,25 @@ Salida: 1
 
 *Explicación: 1 es en si mismo un array de longitud 1*
 
-** Ejemplo 2**
+**Ejemplo 2**
 Entrada: [0,1]
 Salida: 3
 
 *Explicación: los subarrays 0, 1, y 01 cumplen ser colapsables*
 
-** Ejemplo 3**
+**Ejemplo 3**
 Entrada: [1,0,0]
 Salida: 4
 
 *Explicación: los subarrays 1, 0, 0, y 100 cumplen ser colapsables*
 
-** Ejemplo 4**
+**Ejemplo 4**
 Entrada: [1,0,0,1]
 Salida: 8
 
 *Explicación: los subarrays 1, 0, 0, 1, 10, 01, 100, y 1001 cumplen ser colapsables*
 
-** Ejemplo 5**
+**Ejemplo 5**
 Entrada: [1,1,1,1,1]
 Salida:
 
